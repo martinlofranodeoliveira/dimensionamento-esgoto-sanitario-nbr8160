@@ -1,0 +1,258 @@
+{
+  "identificacao": "Residencial Bela Vista - Apto 302",
+  "ramais_descarga": [
+    {
+      "identificacao": "RD-BS-01",
+      "aparelho": {
+        "identificacao": "Bacia Sanitária Banheiro Social",
+        "tipo_aparelho": "bacia_sanitaria_caixa",
+        "quantidade": 1
+      },
+      "dn_adotado_mm": 100
+    },
+    {
+      "identificacao": "RD-LV-01",
+      "aparelho": {
+        "identificacao": "Lavatório Banheiro Social",
+        "tipo_aparelho": "lavatorio_residencial",
+        "quantidade": 1
+      },
+      "dn_adotado_mm": 40
+    },
+    {
+      "identificacao": "RD-CH-01",
+      "aparelho": {
+        "identificacao": "Chuveiro Banheiro Social",
+        "tipo_aparelho": "chuveiro_residencial",
+        "quantidade": 1
+      },
+      "dn_adotado_mm": 40
+    },
+    {
+      "identificacao": "RD-PC-01",
+      "aparelho": {
+        "identificacao": "Pia da Cozinha",
+        "tipo_aparelho": "pia_cozinha_residencial",
+        "quantidade": 1
+      },
+      "dn_adotado_mm": 50
+    },
+    {
+      "identificacao": "RD-TQ-01",
+      "aparelho": {
+        "identificacao": "Tanque Área de Serviço",
+        "tipo_aparelho": "tanque_lavar_roupa",
+        "quantidade": 1
+      },
+      "dn_adotado_mm": 40
+    },
+    {
+      "identificacao": "RD-MLR-01",
+      "aparelho": {
+        "identificacao": "Máquina de Lavar Roupa",
+        "tipo_aparelho": "maquina_lavar_roupa",
+        "quantidade": 1
+      },
+      "dn_adotado_mm": 50
+    }
+  ],
+  "ramais_esgoto": [
+    {
+      "identificacao": "RE-01-BANHEIRO",
+      "aparelhos": [
+        {
+          "identificacao": "Bacia Sanitária",
+          "tipo_aparelho": "bacia_sanitaria_caixa",
+          "quantidade": 1
+        },
+        {
+          "identificacao": "Lavatório",
+          "tipo_aparelho": "lavatorio_residencial",
+          "quantidade": 1
+        },
+        {
+          "identificacao": "Chuveiro",
+          "tipo_aparelho": "chuveiro_residencial",
+          "quantidade": 1
+        },
+        {
+          "identificacao": "Ralo Sifonado",
+          "tipo_aparelho": "ralo_sifonado",
+          "quantidade": 1
+        }
+      ],
+      "dn_adotado_mm": 100,
+      "declividade_m_m": {
+        "num": 2,
+        "den": 100
+      },
+      "comprimento_m": {
+        "num": 4,
+        "den": 1
+      },
+      "recebe_bacia": true,
+      "recebe_gordura": false
+    },
+    {
+      "identificacao": "RE-02-SERVICO",
+      "aparelhos": [
+        {
+          "identificacao": "Tanque",
+          "tipo_aparelho": "tanque_lavar_roupa",
+          "quantidade": 1
+        },
+        {
+          "identificacao": "Máquina de Lavar",
+          "tipo_aparelho": "maquina_lavar_roupa",
+          "quantidade": 1
+        }
+      ],
+      "dn_adotado_mm": 75,
+      "declividade_m_m": {
+        "num": 2,
+        "den": 100
+      },
+      "comprimento_m": {
+        "num": 3,
+        "den": 1
+      },
+      "recebe_bacia": false,
+      "recebe_gordura": false
+    }
+  ],
+  "tubos_queda": [
+    {
+      "identificacao": "TQ-01",
+      "numero_pavimentos": 3,
+      "dn_adotado_mm": 100,
+      "altura_m": {
+        "num": 9,
+        "den": 1
+      },
+      "ramais_contribuintes": [
+        {
+          "identificacao": "RE-01-BANHEIRO",
+          "aparelhos": [
+            {
+              "identificacao": "Bacia Sanitária",
+              "tipo_aparelho": "bacia_sanitaria_caixa",
+              "quantidade": 1
+            },
+            {
+              "identificacao": "Lavatório",
+              "tipo_aparelho": "lavatorio_residencial",
+              "quantidade": 1
+            },
+            {
+              "identificacao": "Chuveiro",
+              "tipo_aparelho": "chuveiro_residencial",
+              "quantidade": 1
+            },
+            {
+              "identificacao": "Ralo Sifonado",
+              "tipo_aparelho": "ralo_sifonado",
+              "quantidade": 1
+            }
+          ],
+          "dn_adotado_mm": 100,
+          "declividade_m_m": {
+            "num": 2,
+            "den": 100
+          },
+          "comprimento_m": {
+            "num": 4,
+            "den": 1
+          },
+          "recebe_bacia": true,
+          "recebe_gordura": false
+        },
+        {
+          "identificacao": "RE-02-SERVICO",
+          "aparelhos": [
+            {
+              "identificacao": "Tanque",
+              "tipo_aparelho": "tanque_lavar_roupa",
+              "quantidade": 1
+            },
+            {
+              "identificacao": "Máquina de Lavar",
+              "tipo_aparelho": "maquina_lavar_roupa",
+              "quantidade": 1
+            }
+          ],
+          "dn_adotado_mm": 75,
+          "declividade_m_m": {
+            "num": 2,
+            "den": 100
+          },
+          "comprimento_m": {
+            "num": 3,
+            "den": 1
+          },
+          "recebe_bacia": false,
+          "recebe_gordura": false
+        }
+      ]
+    }
+  ],
+  "coluna_ventilacao": {
+    "identificacao": "CV-01",
+    "tubo_queda_associado": "TQ-01",
+    "dn_adotado_mm": 50,
+    "comprimento_m": {
+      "num": 11,
+      "den": 1
+    }
+  },
+  "caixa_gordura": {
+    "identificacao": "CG-01",
+    "tipo": "simples",
+    "numero_cozinhas": 1,
+    "numero_refeicoes": 0,
+    "diametro_mm": 300,
+    "volume_retencao_L": {
+      "num": 18,
+      "den": 1
+    }
+  },
+  "caixas_inspecao": [
+    {
+      "identificacao": "CI-01",
+      "largura_mm": 600,
+      "comprimento_mm": 600,
+      "profundidade_m": {
+        "num": 8,
+        "den": 10
+      },
+      "distancia_montante_m": {
+        "num": 12,
+        "den": 1
+      }
+    }
+  ],
+  "caixa_sifonada": {
+    "identificacao": "CS-01",
+    "fecho_hidrico_mm": 50,
+    "dn_saida_mm": 50,
+    "numero_entradas": 3
+  },
+  "coletor_predial": {
+    "identificacao": "CP-01",
+    "tubos_queda_contribuintes": [
+      "TQ-01"
+    ],
+    "uhc_adicional_direta": {
+      "num": 3,
+      "den": 1
+    },
+    "dn_adotado_mm": 100,
+    "declividade_m_m": {
+      "num": 1,
+      "den": 100
+    },
+    "comprimento_m": {
+      "num": 14,
+      "den": 1
+    }
+  }
+}

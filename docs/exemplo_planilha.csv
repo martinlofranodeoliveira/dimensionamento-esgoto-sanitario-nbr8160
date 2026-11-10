@@ -1,0 +1,14 @@
+Tipo de Trecho;Identificação;Carga de Contribuição;DN Calculado / Mínimo;DN Adotado;Declividade / Parâmetro;Capacidade / Limite;Conformidade NBR 8160
+Ramal de Descarga;RD-BS-01;6 UHC (Bacia sanitária com caixa acoplada);DN 100;DN 100;'-;'-;CONFORME
+Ramal de Descarga;RD-LV-01;1 UHC (Lavatório residencial);DN 40;DN 40;'-;'-;CONFORME
+Ramal de Descarga;RD-CH-01;2 UHC (Chuveiro residencial);DN 40;DN 40;'-;'-;CONFORME
+Ramal de Descarga;RD-PC-01;3 UHC (Pia de cozinha residencial);DN 50;DN 50;'-;'-;CONFORME
+Ramal de Descarga;RD-TQ-01;3 UHC (Tanque de lavar roupas);DN 40;DN 40;'-;'-;CONFORME
+Ramal de Descarga;RD-MLR-01;3 UHC (Máquina de lavar roupa residencial);DN 50;DN 50;'-;'-;CONFORME
+Ramal de Esgoto;RE-01-BANHEIRO;11 UHC;DN 100;DN 100;i = 2%;Min: 1%;CONFORME
+Ramal de Esgoto;RE-02-SERVICO;6 UHC;DN 50;DN 75;i = 2%;Min: 2%;CONFORME
+Tubo de Queda (TQ);TQ-01;17 UHC (3 pav);DN 100;DN 100;Ocupação: 7,1%;Máx: 240 UHC;CONFORME
+Coluna de Ventilação;CV-01;17 UHC ventilada;DN 50;DN 50;Comp: 11 m;Assoc: TQ-01;CONFORME
+Coletor Predial;CP-01;20 UHC;DN 100;DN 100;i = 1%;Máx: 180 UHC;CONFORME
+Caixa de Gordura;CG-01;Tipo SIMPLES;D = 300 mm;Vol = 18 L;Min: 18 L;'-;CONFORME
+Caixa de Inspeção;CI-01;600x600 mm;Min 600x600 mm;Dist: 12 m;Máx: 25 m;'-;CONFORME

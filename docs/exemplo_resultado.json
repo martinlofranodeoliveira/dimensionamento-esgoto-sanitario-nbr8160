@@ -1,0 +1,279 @@
+{
+  "alertas": [],
+  "atende_geral": true,
+  "conformidades": {
+    "caixa_gordura": true,
+    "caixas_inspecao": true,
+    "coletor_predial": true,
+    "coluna_ventilacao": true,
+    "ramais_descarga": true,
+    "ramais_esgoto": true,
+    "tubos_queda": true
+  },
+  "identificacao": "Residencial Bela Vista - Apto 302",
+  "norma": "ABNT NBR 8160:1999",
+  "recomendacoes": [
+    "Caixa sifonada com fecho hídrico de 50 mm: barreira perfeita contra gases fétidos.",
+    "Sistema predial de esgoto sanitário e ventilação integralmente aprovado segundo os critérios da ABNT NBR 8160:1999."
+  ],
+  "resultado_caixa_gordura": {
+    "atende_norma": true,
+    "diametro_adotado_mm": 300,
+    "identificacao": "CG-01",
+    "observacoes": [
+      "Caixa de gordura tipo SIMPLES (Vol=18.0 L) atende à NBR 8160."
+    ],
+    "tipo": "simples",
+    "volume_retencao_adotado_L": {
+      "den": 1,
+      "num": 18
+    },
+    "volume_retencao_calculado_L": {
+      "den": 1,
+      "num": 18
+    }
+  },
+  "resultado_coletor_predial": {
+    "atende_norma": true,
+    "capacidade_uhc_tabela": 180,
+    "declividade_m_m": {
+      "den": 100,
+      "num": 1
+    },
+    "dn_adotado": 100,
+    "dn_calculado": 100,
+    "identificacao": "CP-01",
+    "observacoes": [
+      "Coletor predial DN 100 atende à NBR 8160 (i=1.00%, ocupação de 11.1%)."
+    ],
+    "taxa_ocupacao_uhc": {
+      "den": 9,
+      "num": 1
+    },
+    "total_uhc": {
+      "den": 1,
+      "num": 20
+    }
+  },
+  "resultado_coluna_ventilacao": {
+    "atende_norma": true,
+    "comprimento_m": {
+      "den": 1,
+      "num": 11
+    },
+    "dn_adotado": 50,
+    "dn_calculado": 50,
+    "identificacao": "CV-01",
+    "observacoes": [
+      "Coluna de ventilação DN 50 atende à NBR 8160 (comprimento 11.0 m)."
+    ],
+    "tubo_queda_associado": "TQ-01",
+    "uhc_ventilada": {
+      "den": 1,
+      "num": 17
+    }
+  },
+  "resultados_caixas_inspecao": [
+    {
+      "atende_norma": true,
+      "comprimento_mm": 600,
+      "distancia_maxima_norma_m": {
+        "den": 1,
+        "num": 25
+      },
+      "distancia_montante_m": {
+        "den": 1,
+        "num": 12
+      },
+      "identificacao": "CI-01",
+      "largura_mm": 600,
+      "observacoes": [
+        "Caixa de inspeção 600x600 mm atende à NBR 8160 (distância 12.0 m)."
+      ]
+    }
+  ],
+  "resultados_ramais_descarga": [
+    {
+      "aparelho": "Bacia sanitária com caixa acoplada",
+      "atende_norma": true,
+      "dn_adotado": 100,
+      "dn_minimo_norma": 100,
+      "identificacao": "RD-BS-01",
+      "observacoes": [
+        "Ramal de descarga DN 100 atende à NBR 8160 (6 UHC)."
+      ],
+      "uhc_total": {
+        "den": 1,
+        "num": 6
+      },
+      "uhc_unitaria": {
+        "den": 1,
+        "num": 6
+      }
+    },
+    {
+      "aparelho": "Lavatório residencial",
+      "atende_norma": true,
+      "dn_adotado": 40,
+      "dn_minimo_norma": 40,
+      "identificacao": "RD-LV-01",
+      "observacoes": [
+        "Ramal de descarga DN 40 atende à NBR 8160 (1 UHC)."
+      ],
+      "uhc_total": {
+        "den": 1,
+        "num": 1
+      },
+      "uhc_unitaria": {
+        "den": 1,
+        "num": 1
+      }
+    },
+    {
+      "aparelho": "Chuveiro residencial",
+      "atende_norma": true,
+      "dn_adotado": 40,
+      "dn_minimo_norma": 40,
+      "identificacao": "RD-CH-01",
+      "observacoes": [
+        "Ramal de descarga DN 40 atende à NBR 8160 (2 UHC)."
+      ],
+      "uhc_total": {
+        "den": 1,
+        "num": 2
+      },
+      "uhc_unitaria": {
+        "den": 1,
+        "num": 2
+      }
+    },
+    {
+      "aparelho": "Pia de cozinha residencial",
+      "atende_norma": true,
+      "dn_adotado": 50,
+      "dn_minimo_norma": 50,
+      "identificacao": "RD-PC-01",
+      "observacoes": [
+        "Ramal de descarga DN 50 atende à NBR 8160 (3 UHC)."
+      ],
+      "uhc_total": {
+        "den": 1,
+        "num": 3
+      },
+      "uhc_unitaria": {
+        "den": 1,
+        "num": 3
+      }
+    },
+    {
+      "aparelho": "Tanque de lavar roupas",
+      "atende_norma": true,
+      "dn_adotado": 40,
+      "dn_minimo_norma": 40,
+      "identificacao": "RD-TQ-01",
+      "observacoes": [
+        "Ramal de descarga DN 40 atende à NBR 8160 (3 UHC)."
+      ],
+      "uhc_total": {
+        "den": 1,
+        "num": 3
+      },
+      "uhc_unitaria": {
+        "den": 1,
+        "num": 3
+      }
+    },
+    {
+      "aparelho": "Máquina de lavar roupa residencial",
+      "atende_norma": true,
+      "dn_adotado": 50,
+      "dn_minimo_norma": 50,
+      "identificacao": "RD-MLR-01",
+      "observacoes": [
+        "Ramal de descarga DN 50 atende à NBR 8160 (3 UHC)."
+      ],
+      "uhc_total": {
+        "den": 1,
+        "num": 3
+      },
+      "uhc_unitaria": {
+        "den": 1,
+        "num": 3
+      }
+    }
+  ],
+  "resultados_ramais_esgoto": [
+    {
+      "atende_declividade": true,
+      "atende_diametro": true,
+      "atende_norma": true,
+      "declividade_m_m": {
+        "den": 50,
+        "num": 1
+      },
+      "declividade_minima_norma": {
+        "den": 100,
+        "num": 1
+      },
+      "dn_adotado": 100,
+      "dn_calculado": 100,
+      "identificacao": "RE-01-BANHEIRO",
+      "observacoes": [
+        "Ramal recebe efluente de bacia sanitária (DN mínimo 100 obrigatório).",
+        "Ramal de esgoto DN 100 atende à NBR 8160 com declividade de 2.00%."
+      ],
+      "total_uhc": {
+        "den": 1,
+        "num": 11
+      }
+    },
+    {
+      "atende_declividade": true,
+      "atende_diametro": true,
+      "atende_norma": true,
+      "declividade_m_m": {
+        "den": 50,
+        "num": 1
+      },
+      "declividade_minima_norma": {
+        "den": 50,
+        "num": 1
+      },
+      "dn_adotado": 75,
+      "dn_calculado": 50,
+      "identificacao": "RE-02-SERVICO",
+      "observacoes": [
+        "Ramal de esgoto DN 75 atende à NBR 8160 com declividade de 2.00%."
+      ],
+      "total_uhc": {
+        "den": 1,
+        "num": 6
+      }
+    }
+  ],
+  "resultados_tubos_queda": [
+    {
+      "atende_norma": true,
+      "capacidade_uhc_admissivel": 240,
+      "dn_adotado": 100,
+      "dn_calculado": 100,
+      "identificacao": "TQ-01",
+      "numero_pavimentos": 3,
+      "observacoes": [
+        "Tubo de queda DN 100 atende à NBR 8160 (3 pavimentos, ocupação de 7.1%)."
+      ],
+      "taxa_ocupacao_uhc": {
+        "den": 240,
+        "num": 17
+      },
+      "total_uhc": {
+        "den": 1,
+        "num": 17
+      }
+    }
+  ],
+  "total_uhc_geral": {
+    "den": 1,
+    "num": 20
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "identificacao": "Edifício Residencial Horizonte - 8 Pavimentos",
+  "ramais_descarga": [
+    {
+      "identificacao": "RD-BS-TIPICO",
+      "aparelho": {
+        "identificacao": "Bacia Sanitária Caixa",
+        "tipo_aparelho": "bacia_sanitaria_caixa",
+        "quantidade": 1
+      },
+      "dn_adotado_mm": 100
+    },
+    {
+      "identificacao": "RD-LV-TIPICO",
+      "aparelho": {
+        "identificacao": "Lavatório Residencial",
+        "tipo_aparelho": "lavatorio_residencial",
+        "quantidade": 1
+      },
+      "dn_adotado_mm": 40
+    },
+    {
+      "identificacao": "RD-CH-TIPICO",
+      "aparelho": {
+        "identificacao": "Chuveiro Residencial",
+        "tipo_aparelho": "chuveiro_residencial",
+        "quantidade": 1
+      },
+      "dn_adotado_mm": 40
+    },
+    {
+      "identificacao": "RD-PC-TIPICO",
+      "aparelho": {
+        "identificacao": "Pia de Cozinha",
+        "tipo_aparelho": "pia_cozinha_residencial",
+        "quantidade": 1
+      },
+      "dn_adotado_mm": 50
+    }
+  ],
+  "ramais_esgoto": [
+    {
+      "identificacao": "RE-BANHEIRO-PAV",
+      "aparelhos": [
+        {
+          "identificacao": "Bacia Sanitária",
+          "tipo_aparelho": "bacia_sanitaria_caixa",
+          "quantidade": 1
+        },
+        {
+          "identificacao": "Lavatório",
+          "tipo_aparelho": "lavatorio_residencial",
+          "quantidade": 1
+        },
+        {
+          "identificacao": "Chuveiro",
+          "tipo_aparelho": "chuveiro_residencial",
+          "quantidade": 1
+        },
+        {
+          "identificacao": "Ralo Sifonado",
+          "tipo_aparelho": "ralo_sifonado",
+          "quantidade": 1
+        }
+      ],
+      "dn_adotado_mm": 100,
+      "declividade_m_m": {
+        "num": 2,
+        "den": 100
+      },
+      "comprimento_m": {
+        "num": 4,
+        "den": 1
+      },
+      "recebe_bacia": true,
+      "recebe_gordura": false
+    },
+    {
+      "identificacao": "RE-SERVICO-PAV",
+      "aparelhos": [
+        {
+          "identificacao": "Pia Cozinha",
+          "tipo_aparelho": "pia_cozinha_residencial",
+          "quantidade": 1
+        },
+        {
+          "identificacao": "Tanque",
+          "tipo_aparelho": "tanque_lavar_roupa",
+          "quantidade": 1
+        },
+        {
+          "identificacao": "Máquina Lavar",
+          "tipo_aparelho": "maquina_lavar_roupa",
+          "quantidade": 1
+        }
+      ],
+      "dn_adotado_mm": 75,
+      "declividade_m_m": {
+        "num": 2,
+        "den": 100
+      },
+      "comprimento_m": {
+        "num": 5,
+        "den": 1
+      },
+      "recebe_bacia": false,
+      "recebe_gordura": true
+    }
+  ],
+  "tubos_queda": [
+    {
+      "identificacao": "TQ-01",
+      "numero_pavimentos": 8,
+      "dn_adotado_mm": 100,
+      "altura_m": {
+        "num": 24,
+        "den": 1
+      },
+      "ramais_contribuintes": [
+        {
+          "identificacao": "RE-BANHEIRO-PAV-X8",
+          "aparelhos": [
+            {
+              "identificacao": "Bacia Sanitária",
+              "tipo_aparelho": "bacia_sanitaria_caixa",
+              "quantidade": 8
+            },
+            {
+              "identificacao": "Lavatório",
+              "tipo_aparelho": "lavatorio_residencial",
+              "quantidade": 8
+            },
+            {
+              "identificacao": "Chuveiro",
+              "tipo_aparelho": "chuveiro_residencial",
+              "quantidade": 8
+            },
+            {
+              "identificacao": "Ralo Sifonado",
+              "tipo_aparelho": "ralo_sifonado",
+              "quantidade": 8
+            }
+          ],
+          "dn_adotado_mm": 100,
+          "declividade_m_m": {
+            "num": 2,
+            "den": 100
+          },
+          "comprimento_m": {
+            "num": 5,
+            "den": 1
+          },
+          "recebe_bacia": true,
+          "recebe_gordura": false
+        },
+        {
+          "identificacao": "RE-SERVICO-PAV-X8",
+          "aparelhos": [
+            {
+              "identificacao": "Pia Cozinha",
+              "tipo_aparelho": "pia_cozinha_residencial",
+              "quantidade": 8
+            },
+            {
+              "identificacao": "Tanque",
+              "tipo_aparelho": "tanque_lavar_roupa",
+              "quantidade": 8
+            },
+            {
+              "identificacao": "Máquina Lavar",
+              "tipo_aparelho": "maquina_lavar_roupa",
+              "quantidade": 8
+            }
+          ],
+          "dn_adotado_mm": 75,
+          "declividade_m_m": {
+            "num": 2,
+            "den": 100
+          },
+          "comprimento_m": {
+            "num": 6,
+            "den": 1
+          },
+          "recebe_bacia": false,
+          "recebe_gordura": true
+        }
+      ]
+    }
+  ],
+  "coluna_ventilacao": {
+    "identificacao": "CV-01",
+    "tubo_queda_associado": "TQ-01",
+    "dn_adotado_mm": 100,
+    "comprimento_m": {
+      "num": 26,
+      "den": 1
+    }
+  },
+  "caixa_gordura": {
+    "identificacao": "CG-DUPLA-01",
+    "tipo": "dupla",
+    "numero_cozinhas": 8,
+    "numero_refeicoes": 0,
+    "diametro_mm": 400,
+    "volume_retencao_L": {
+      "num": 120,
+      "den": 1
+    }
+  },
+  "caixas_inspecao": [
+    {
+      "identificacao": "CI-01",
+      "largura_mm": 600,
+      "comprimento_mm": 600,
+      "profundidade_m": {
+        "num": 1,
+        "den": 1
+      },
+      "distancia_montante_m": {
+        "num": 15,
+        "den": 1
+      }
+    },
+    {
+      "identificacao": "CI-02",
+      "largura_mm": 600,
+      "comprimento_mm": 600,
+      "profundidade_m": {
+        "num": 12,
+        "den": 10
+      },
+      "distancia_montante_m": {
+        "num": 18,
+        "den": 1
+      }
+    }
+  ],
+  "coletor_predial": {
+    "identificacao": "CP-01",
+    "tubos_queda_contribuintes": [
+      "TQ-01"
+    ],
+    "uhc_adicional_direta": {
+      "num": 0,
+      "den": 1
+    },
+    "dn_adotado_mm": 150,
+    "declividade_m_m": {
+      "num": 1,
+      "den": 100
+    },
+    "comprimento_m": {
+      "num": 25,
+      "den": 1
+    }
+  }
+}

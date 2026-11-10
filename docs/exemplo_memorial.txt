@@ -1,0 +1,66 @@
+================================================================================
+       LOFRANO TECNOLOGIA - ENGENHARIA SANITÁRIA E HIDRÁULICA PREDIAL
+         MEMORIAL DE CÁLCULO NORMATIVO - ABNT NBR 8160:1999 (ESGOTO)
+================================================================================
+Projeto: Residencial Bela Vista - Apto 302
+Norma Regulamentadora: ABNT NBR 8160:1999
+Carga Total Acumulada: 20 UHC
+Status Geral de Aprovação: APROVADO
+--------------------------------------------------------------------------------
+1. RAMAIS DE DESCARGA (TABELAS 1 E 2 NBR 8160)
+  - [RD-BS-01] Bacia sanitária com caixa acoplada: 6 UHC | DN Mínimo: 100 mm | DN Adotado: 100 mm -> CONFORME
+  - [RD-LV-01] Lavatório residencial: 1 UHC | DN Mínimo: 40 mm | DN Adotado: 40 mm -> CONFORME
+  - [RD-CH-01] Chuveiro residencial: 2 UHC | DN Mínimo: 40 mm | DN Adotado: 40 mm -> CONFORME
+  - [RD-PC-01] Pia de cozinha residencial: 3 UHC | DN Mínimo: 50 mm | DN Adotado: 50 mm -> CONFORME
+  - [RD-TQ-01] Tanque de lavar roupas: 3 UHC | DN Mínimo: 40 mm | DN Adotado: 40 mm -> CONFORME
+  - [RD-MLR-01] Máquina de lavar roupa residencial: 3 UHC | DN Mínimo: 50 mm | DN Adotado: 50 mm -> CONFORME
+
+2. RAMAIS DE ESGOTO HORIZONTAIS (TABELA 3 NBR 8160)
+  - [RE-01-BANHEIRO] Carga: 11 UHC | DN Calculado: 100 mm | DN Adotado: 100 mm | Declividade: 2% (Mínimo: 1%) -> CONFORME
+    * Ramal recebe efluente de bacia sanitária (DN mínimo 100 obrigatório).
+    * Ramal de esgoto DN 100 atende à NBR 8160 com declividade de 2.00%.
+  - [RE-02-SERVICO] Carga: 6 UHC | DN Calculado: 50 mm | DN Adotado: 75 mm | Declividade: 2% (Mínimo: 2%) -> CONFORME
+    * Ramal de esgoto DN 75 atende à NBR 8160 com declividade de 2.00%.
+
+3. TUBOS DE QUEDA VERTICAIS / PRUMADAS (TABELA 4 NBR 8160)
+  - [TQ-01] 3 Pavimentos | Carga: 17 UHC | DN Adotado: 100 mm | Capacidade: 240 UHC (Ocupação: 7,1%) -> CONFORME
+    * Tubo de queda DN 100 atende à NBR 8160 (3 pavimentos, ocupação de 7.1%).
+
+4. COLUNA DE VENTILAÇÃO SECUNDÁRIA (TABELA 5 NBR 8160)
+  - Prumada: CV-01 (Associada ao TQ: TQ-01)
+  - Carga Ventilada: 17 UHC | Comprimento: 11 m
+  - DN Mínimo Normativo: 50 mm | DN Adotado: 50 mm
+  - Status Normativo: CONFORME
+    * Coluna de ventilação DN 50 atende à NBR 8160 (comprimento 11.0 m).
+
+5. SUBCOLETORES E COLETOR PREDIAL (TABELA 6 NBR 8160)
+  - Coletor: CP-01
+  - Carga Total Conduzida: 20 UHC
+  - Diâmetro Adotado: DN 100 mm (Mínimo: 100 mm)
+  - Declividade de Instalação: 1% (Mínimo: 1,0%)
+  - Capacidade Admissível: 180 UHC (Ocupação: 11,1%)
+  - Status Normativo: CONFORME
+    * Coletor predial DN 100 atende à NBR 8160 (i=1.00%, ocupação de 11.1%).
+
+6. CAIXAS DE GORDURA, INSPEÇÃO E DESCONECTORES
+  - Caixa de Gordura: CG-01 (Tipo SIMPLES)
+    * Diâmetro: 300 mm | Volume Adotado: 18 L (Mínimo: 18 L)
+    * Status: CONFORME
+  - Caixa de Inspeção: CI-01 (600x600 mm)
+    * Distância a montante: 12 m (Máximo permitido: 25 m)
+    * Status: CONFORME
+
+7. SÍNTESE DE CONFORMIDADE E RECOMENDAÇÕES EXECUTIVAS
+  - Componente [ramais_descarga]: APROVADO
+  - Componente [ramais_esgoto]: APROVADO
+  - Componente [tubos_queda]: APROVADO
+  - Componente [coluna_ventilacao]: APROVADO
+  - Componente [coletor_predial]: APROVADO
+  - Componente [caixa_gordura]: APROVADO
+  - Componente [caixas_inspecao]: APROVADO
+  RECOMENDAÇÕES EXECUTIVAS:
+    [*] Caixa sifonada com fecho hídrico de 50 mm: barreira perfeita contra gases fétidos.
+    [*] Sistema predial de esgoto sanitário e ventilação integralmente aprovado segundo os critérios da ABNT NBR 8160:1999.
+================================================================================
+LOFRANO TECNOLOGIA - Soluções Determinísticas e Engenharia Confiável.
+================================================================================
